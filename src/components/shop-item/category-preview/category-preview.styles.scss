@@ -1,0 +1,26 @@
+.category-preview-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+
+  .title {
+    font-size: 28px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: red;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+    &:hover {
+      background-color: black;
+    }
+  }
+
+  .preview {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+  }
+}

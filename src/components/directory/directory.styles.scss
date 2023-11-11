@@ -1,0 +1,22 @@
+.directory-container {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.directory-footer {
+  margin: 20px auto;
+  text-transform: capitalize;
+  width: fit-content;
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+  font-family: "Pacifico", cursive;
+  transition: 0.3s linear;
+  &:hover {
+    font-size: 25px;
+  }
+}
