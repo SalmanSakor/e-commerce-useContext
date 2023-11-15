@@ -11,7 +11,6 @@ const Directory = () => {
           <DirectoryItem key={category.id} category={category} />
         ))}
       </div>
-      <h1 className="directory-footer">create by salman sakor</h1>
     </Fragment>
   );
 };

@@ -3,14 +3,27 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: 20px;
   row-gap: 50px;
+  @media (max-width: 1300px) {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    padding: 10px;
+  }
 }
 
 .category-title {
-  margin-top: 100px;
+  margin-top: 90px;
   border-radius: 6px;
   font-size: 38px;
   margin-bottom: 25px;
   text-align: center;
   letter-spacing: 1px;
+  user-select: none;
+}
+.vpn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-top: 180px;
   user-select: none;
 }

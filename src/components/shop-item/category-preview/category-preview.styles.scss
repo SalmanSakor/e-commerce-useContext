@@ -1,7 +1,10 @@
 .category-preview-container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  @media (max-width: 800px) {
+    padding: 10px;
+  }
 
   .title {
     font-size: 28px;
@@ -22,5 +25,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
+
+    @media (max-width: 1300px) {
+      grid-template-columns: repeat(2, 1fr);
+      row-gap: 40px;
+    }
   }
 }
